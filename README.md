@@ -1,4 +1,4 @@
-# Tanmayee Kodali — Personal Website
+# Tanmayee Kodali - Personal Website
 
 **Live site:** https://tanmayeekodali.github.io/my-website/
 
