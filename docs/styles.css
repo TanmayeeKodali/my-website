@@ -16,7 +16,7 @@ body {
 h1, h2, h3, h4 {
   font-family: 'Merriweather', Georgia, serif;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.5;
   color: #1a2e35;
 }
 
@@ -130,19 +130,19 @@ a:hover { color: #0a4d53; }
 .profile-info h1 {
   margin-top: 0;
   margin-bottom: 0.3rem;
-  font-size: 1.9rem;
+  font-size: 2.2rem;
   color: #0f6b72;
 }
 
 .profile-info .tagline {
-  font-size: 0.95rem;
+  font-size: 1.0rem;
   color: #5a6a70;
   font-style: italic;
   margin-bottom: 0.8rem;
 }
 
 .profile-info p {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: #3a4a4e;
   margin-bottom: 0;
   line-height: 1.75;
@@ -181,7 +181,7 @@ a:hover { color: #0a4d53; }
 }
 
 .highlight-card .card-icon {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 0.6rem;
   color: #0f6b72;
 }
@@ -405,9 +405,9 @@ a:hover { color: #0a4d53; }
 }
 
 .cv-section p {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   color: #3a4a4e;
-  line-height: 1.8;
+  line-height: 1.9;
 }
 
 /* Increase all CV content font size */
@@ -420,6 +420,6 @@ a:hover { color: #0a4d53; }
 .cv-section .pub-entry,
 .cv-section .award-item,
 .cv-section .skill-tag {
-  font-size: 1.05rem !important;
-  line-height: 1.8 !important;
+  font-size: 1.15rem !important;
+  line-height: 1.9 !important;
 }
