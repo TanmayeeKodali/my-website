@@ -26,7 +26,7 @@ h1 { font-size: 2rem; }
 h2 { font-size: 1.5rem; margin-top: 2rem; }
 h3 { font-size: 1.2rem; }
 
-p { max-width: 72ch; }
+p { max-width: 100%; }
 
 code, pre {
   font-family: 'Source Code Pro', 'Courier New', monospace;
@@ -131,6 +131,7 @@ pre {
   font-size: 0.97rem;
   color: #3a4a4e;
   margin-bottom: 0;
+  text-align: justify;
 }
 
 /* --- Highlight Cards (Home page) -------------------------- */
@@ -395,33 +396,23 @@ pre {
 /* ===== FORCE NAVBAR SIZE OVERRIDE ===== */
 .navbar,
 .navbar-default {
-  min-height: 72px !important;
+  min-height: 56px !important;
 }
 
 .navbar-brand,
 .navbar-default .navbar-brand {
-  font-family: 'Merriweather', Georgia, serif !important;
-  font-size: 32px !important;
+  font-size: 24px !important;
   font-weight: 700 !important;
-  line-height: 1.2 !important;
-  height: auto !important;
-  padding-top: 18px !important;
-  padding-bottom: 18px !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
   color: #ffffff !important;
 }
 
 .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a {
-  font-family: 'Work Sans', sans-serif !important;
-  font-size: 24px !important;
+  font-size: 20px !important;
   font-weight: 600 !important;
-  line-height: 1.2 !important;
-  padding-top: 20px !important;
-  padding-bottom: 20px !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
   color: #d4f0f2 !important;
-}
-
-.navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:hover {
-  color: #ffffff !important;
 }
