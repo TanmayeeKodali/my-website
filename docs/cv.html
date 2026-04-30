@@ -32,9 +32,14 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Favicon: teal circle with TK initials -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%230f6b72'/><text x='50' y='65' font-family='Georgia,serif' font-size='38' font-weight='bold' text-anchor='middle' fill='white'>TK</text></svg>">
+
 <!-- Font Awesome for social icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Tnx8e/hbT/EKV8IssGEBe2qJDMaLKUQ3gHqUyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- Google Fonts: Merriweather (headings) + Work Sans (body) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Tnx8e/hbT/EKV8IssGEBe2qJDMaLKUQ3gHqUyw=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
@@ -492,8 +497,37 @@ $(document).ready(function () {
 </div>
 </div>
 
+<style>
+.site-footer {
+  background-color: #1a2e35;
+  color: #a0b4b8;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  border-top: 3px solid #0f6b72;
+}
+.site-footer a {
+  color: #7ecdd1;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #ffffff;
+}
+</style>
+
+<footer class="site-footer">
+  <p style="margin:0;">
+    &copy; 2026 Tanmayee Kodali &nbsp;&middot;&nbsp;
+    MPH in Global Health, Emory University &nbsp;&middot;&nbsp;
+    <a href="https://github.com/TanmayeeKodali" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://www.linkedin.com/in/tanmayeekodali/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+  </p>
+</footer>
+
 <script>
-// Replace GitHub and LinkedIn navbar text with Font Awesome icons after page loads
 document.addEventListener("DOMContentLoaded", function() {
   var links = document.querySelectorAll(".navbar-nav a");
   links.forEach(function(link) {
