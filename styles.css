@@ -362,3 +362,28 @@ pre {
 @media (max-width: 400px) {
   .highlights-grid { grid-template-columns: 1fr; }
 }
+
+/* --- Additional fixes ------------------------------------ */
+.cv-bullets {
+  list-style-type: disc;
+  padding-left: 1.4rem;
+}
+
+.cv-bullets li {
+  margin-bottom: 0.3rem;
+}
+
+/* Ensure CV h2 section headings are clearly sized */
+.cv-section h2 {
+  font-size: 1rem !important;
+  margin-top: 1.5rem;
+}
+
+/* Skills p labels */
+.cv-section p strong {
+  font-size: 0.95rem;
+  color: #1a2e35;
+  display: block;
+  margin-bottom: 0.3rem;
+  margin-top: 0.8rem;
+}

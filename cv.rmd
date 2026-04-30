@@ -78,7 +78,7 @@ title: "Curriculum Vitae"
 </div>
 <div class="cv-entry-org">Sattva Media &amp; Consulting Pvt. Ltd &middot; New Delhi, India</div>
 <ul class="cv-bullets">
-  <li>Led state-level health systems strengthening initiative in Bihar, coordinating with the Government of Bihar, Gates Foundation, and community stakeholders across 38 districts</li>
+  <li>Led state-level health systems strengthening initiative in Bihar, coordinating with Government of Bihar, Gates Foundation, and community stakeholders across 38 districts</li>
   <li>Directed Bihar State Health Digital Transformation Project across 11,725 healthcare facilities; delivered real-time Power BI command center with NICU monitoring feeds</li>
   <li>Implemented and evaluated Sanitary Napkin Initiative across 143 medical institutions and 687 healthcare facilities</li>
   <li>Represented the Government of Bihar at IMNHC 2023, Cape Town</li>
@@ -124,7 +124,7 @@ Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J 
 <div class="cv-section">
 <h2>Skills</h2>
 
-**Statistical &amp; Analytical**
+<p><strong>Statistical &amp; Analytical</strong></p>
 <div class="skills-grid">
   <span class="skill-tag">R (Intermediate)</span>
   <span class="skill-tag">Python (Intermediate)</span>
@@ -134,7 +134,7 @@ Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J 
   <span class="skill-tag">REDCap</span>
 </div>
 
-**Visualization &amp; Informatics**
+<p><strong>Visualization &amp; Informatics</strong></p>
 <div class="skills-grid">
   <span class="skill-tag">Tableau</span>
   <span class="skill-tag">Power BI</span>
@@ -142,7 +142,7 @@ Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J 
   <span class="skill-tag">Excel (Advanced)</span>
 </div>
 
-**Research &amp; Policy**
+<p><strong>Research &amp; Policy</strong></p>
 <div class="skills-grid">
   <span class="skill-tag">Program Evaluation</span>
   <span class="skill-tag">Systematic Reviews</span>
@@ -153,7 +153,7 @@ Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J 
   <span class="skill-tag">Stakeholder Engagement</span>
 </div>
 
-**Languages:** Telugu (Native) &middot; Hindi (Native) &middot; English (Highly Proficient)
+<p><strong>Languages:</strong> Telugu (Native) &middot; Hindi (Native) &middot; English (Highly Proficient)</p>
 </div>
 
 <hr class="section-divider">
