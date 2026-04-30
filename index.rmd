@@ -57,12 +57,13 @@ title: ""
 ## Get in Touch
 
 ```{=html}
-<div style="background:#e8f4f5; border-left:4px solid #0f6b72; border-radius:0 8px 8px 0; padding:1.2rem 1.8rem; display:inline-block; margin-top:0.5rem;">
-  <p style="margin:0 0 0.5rem; font-weight:600; color:#1a2e35; font-size:1rem;">Connect with me</p>
-  <p style="margin:0; font-size:0.97rem; color:#3a4a4e;">
-    <i class="fab fa-github"></i> <a href="https://github.com/TanmayeeKodali" target="_blank">github.com/TanmayeeKodali</a>
-    &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-    <i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/tanmayeekodali/" target="_blank">linkedin.com/in/tanmayeekodali</a>
+<div style="background:#e8f4f5; border-left:4px solid #0f6b72; border-radius:0 8px 8px 0; padding:1.4rem 1.8rem; margin-top:0.5rem; max-width:680px;">
+  <p style="margin:0 0 0.5rem; font-weight:700; color:#1a2e35; font-size:1.05rem;">Interested in discussing these projects or sharing your views?</p>
+  <p style="margin:0; font-size:1rem; color:#3a4a4e; line-height:1.75;">
+    I'd love to connect — reach me on 
+    <a href="https://www.linkedin.com/in/tanmayeekodali/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a> 
+    or at 
+    <a href="mailto:tanmayeekodali@gmail.com"><i class="fas fa-envelope"></i> tanmayeekodali@gmail.com</a>
   </p>
 </div>
 ```
