@@ -2,6 +2,7 @@
 title: "Curriculum Vitae"
 ---
 
+```{=html}
 <div class="cv-section">
 <h2>Education</h2>
 
@@ -109,13 +110,11 @@ title: "Curriculum Vitae"
 
 <div class="cv-section">
 <h2>Publications &amp; Conferences</h2>
-
 <div class="pub-entry">
-Escoffrey C, Lynam M, <strong>Kodali T</strong>, Anderson S, Kadoo R, Wells J, Moorshed AB, Sazdovska S, Wen F, Niyyar R (2026). A Systematic Review of Interventions to Increase Uptake of Lung Cancer Screening in the United States. <em>Manuscript under Review.</em>
+  Escoffrey C, Lynam M, <strong>Kodali T</strong>, Anderson S, Kadoo R, Wells J, Moorshed AB, Sazdovska S, Wen F, Niyyar R (2026). A Systematic Review of Interventions to Increase Uptake of Lung Cancer Screening in the United States. <em>Manuscript under Review.</em>
 </div>
-
 <div class="pub-entry">
-Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J (2025). Lung Cancer Screening Survey among Georgia Healthcare Providers: Blueprint for lung cancer screening programs in Primary Care. <em>Poster, Conference on the Science of Dissemination and Implementation in Health; December 2025; National Harbor, MD.</em>
+  Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J (2025). Lung Cancer Screening Survey among Georgia Healthcare Providers: Blueprint for lung cancer screening programs in Primary Care. <em>Poster, Conference on the Science of Dissemination and Implementation in Health; December 2025; National Harbor, MD.</em>
 </div>
 </div>
 
@@ -160,7 +159,6 @@ Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J 
 
 <div class="cv-section">
 <h2>Honors &amp; Awards</h2>
-
 <div class="award-item">&#127942; Recognition Award &mdash; Shri Nitish Kumar, Chief Minister of Bihar (2022&ndash;23)</div>
 <div class="award-item">&#127942; Best Performer Award &mdash; Department of Health, Government of Bihar (July 2023)</div>
 <div class="award-item">&#127942; Citation &mdash; Deputy Chief Minister-cum-Health Minister, Bihar (March 2023)</div>
@@ -171,7 +169,6 @@ Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J 
 
 <div class="cv-section">
 <h2>Leadership</h2>
-
 <div class="cv-entry">
   <span class="cv-entry-title">Program Manager &mdash; International Education Peace Volunteers (IEPV), Atlanta</span>
   <span class="cv-entry-date">Jan 2025 &ndash; Present</span>
@@ -189,3 +186,4 @@ Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz J, Yates J 
   <span class="cv-entry-date">Jan &ndash; Dec 2025</span>
 </div>
 </div>
+```
