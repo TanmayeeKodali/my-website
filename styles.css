@@ -403,3 +403,23 @@ a:hover { color: #0a4d53; }
 @media (max-width: 400px) {
   .highlights-grid { grid-template-columns: 1fr; }
 }
+
+.cv-section p {
+  font-size: 1.05rem;
+  color: #3a4a4e;
+  line-height: 1.8;
+}
+
+/* Increase all CV content font size */
+.cv-section,
+.cv-section p,
+.cv-section li,
+.cv-section .cv-entry-title,
+.cv-section .cv-entry-org,
+.cv-section .cv-entry-date,
+.cv-section .pub-entry,
+.cv-section .award-item,
+.cv-section .skill-tag {
+  font-size: 1.05rem !important;
+  line-height: 1.8 !important;
+}
