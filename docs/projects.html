@@ -280,11 +280,13 @@ $(document).ready(function () {
 </div>
 
 
-<p>Below are selected graduate-level projects reflecting my work at the
-intersection of global health, data science, and policy analysis. Each
-project is written for a general audience while grounded in rigorous
-methodology.</p>
+<p>My work spans global health research, data science, health policy,
+and climate adaptation. Below are selected projects, from featured
+research to academic coursework, each written for a general
+audience.</p>
 <hr />
+<div id="featured-research" class="section level2">
+<h2>Featured Research</h2>
 <div class="project-card">
   <h3>Climate Adaptation &amp; Maternal Health: A Cost-Effectiveness Analysis</h3>
   <div class="project-tags">
@@ -292,10 +294,13 @@ methodology.</p>
     <span class="tag">Cost-Effectiveness Analysis</span>
     <span class="tag">Maternal Health</span>
     <span class="tag">R</span>
-    <span class="tag">Global Health</span>
+    <span class="tag">Shiny Dashboard</span>
   </div>
-  <p>Postpartum hemorrhage (PPH)&mdash;excessive bleeding after childbirth&mdash;is a leading cause of maternal death in low- and middle-income countries (LMICs). Rising global temperatures make this worse: heat degrades the standard drug used to prevent PPH (oxytocin), reducing its effectiveness in hot climates. This project builds a cost-effectiveness model comparing standard oxytocin against heat-stable carbetocin, a newer alternative that remains effective without refrigeration.</p>
-  <p>Using climate projections from CMIP6 and population data across 2020&ndash;2059, the model estimates how many maternal deaths could be prevented and at what cost across different world regions, providing decision-makers with evidence to guide maternal health procurement in a warming world.</p>
+  <p>Postpartum hemorrhage (PPH), excessive bleeding after childbirth, is a leading cause of maternal death in low- and middle-income countries (LMICs). Rising global temperatures worsen this: heat degrades the standard preventive drug (oxytocin), making it less effective in hot climates. This project builds a cost-effectiveness model comparing oxytocin against heat-stable carbetocin, a newer alternative that requires no refrigeration.</p>
+  <p>Using CMIP6 climate projections and population data across 2020&ndash;2059, the model estimates lives saved and cost per death averted across world regions. Results are presented in an interactive Shiny dashboard with real-time filtering by region and year.</p>
+  <a class="btn-github" href="https://kzja3g-tanmayee-kodali.shinyapps.io/climate-pph-dashboard/" target="_blank" style="background-color:#0f6b72; margin-right:0.6rem;">
+    <i class="fas fa-external-link-alt"></i> Live Dashboard
+  </a>
   <a class="btn-github" href="https://github.com/TanmayeeKodali/heat-stable-carbetocin" target="_blank">
     <i class="fab fa-github"></i> View on GitHub
   </a>
@@ -309,8 +314,8 @@ methodology.</p>
     <span class="tag">Python</span>
     <span class="tag">Epidemiology</span>
   </div>
-  <p>Pulmonary embolism (PE)&mdash;a blood clot in the lungs&mdash;is a life-threatening but often preventable condition. Despite its severity, patterns of PE diagnosis and care complexity are not well-characterized across diverse patient populations. This project uses electronic health record (EHR) data from the PE-EHR+ dataset to analyze how PE is diagnosed, managed, and documented across hospitals and patient groups.</p>
-  <p>Working in Python, the analysis examines trends in PE incidence, differences across demographic groups, and the complexity of clinical care pathways&mdash;surfacing insights that can improve hospital protocols and reduce preventable mortality.</p>
+  <p>Pulmonary embolism (PE), a blood clot in the lungs, is life-threatening but often preventable. Despite its severity, patterns of PE diagnosis and care complexity are not well-characterized across diverse patient populations. This project uses electronic health record (EHR) data from the PE-EHR+ dataset to analyze how PE is diagnosed, managed, and documented across hospitals and patient groups.</p>
+  <p>Working in Python, the analysis examines trends in PE incidence, differences across demographic groups, and the complexity of clinical care pathways, surfacing insights that can improve hospital protocols and reduce preventable mortality.</p>
   <a class="btn-github" href="https://github.com/TanmayeeKodali/pe-ehr-study" target="_blank">
     <i class="fab fa-github"></i> View on GitHub
   </a>
@@ -325,16 +330,75 @@ methodology.</p>
     <span class="tag">Data Visualization</span>
     <span class="tag">Reproducible Research</span>
   </div>
-  <p>As the COVID-19 pandemic evolved, successive waves were driven by different SARS-CoV-2 variants&mdash;each with distinct transmission rates and clinical severity. Understanding which variants dominated, and when, is essential for evaluating public health responses and preparing for future outbreaks.</p>
-  <p>This project analyzes U.S. surveillance data from December 2022 through October 2024, tracking the emergence and dominance of variants that achieved greater than 5% national prevalence. Using R with fully reproducible, version-controlled code, the analysis produces clear visualizations to inform vaccine strategy and outbreak preparedness planning.</p>
+  <p>As the COVID-19 pandemic evolved, successive waves were driven by different SARS-CoV-2 variants, each with distinct transmission rates and clinical severity. Understanding which variants dominated, and when, is essential for evaluating public health responses and preparing for future outbreaks.</p>
+  <p>This project analyzes U.S. surveillance data from December 2022 through October 2024, tracking variants that achieved greater than 5% national prevalence. Using fully reproducible R code, the analysis produces clear visualizations of variant succession to inform vaccine strategy and outbreak preparedness planning.</p>
   <a class="btn-github" href="https://github.com/TanmayeeKodali/finalproject" target="_blank">
     <i class="fab fa-github"></i> View on GitHub
   </a>
 </div>
+<hr />
+</div>
+<div id="academic-coursework-projects" class="section level2">
+<h2>Academic &amp; Coursework Projects</h2>
+<div class="project-card">
+  <h3>Blood Lead Levels &amp; Hypertension in U.S. Adults</h3>
+  <div class="project-tags">
+    <span class="tag">Epidemiology</span>
+    <span class="tag">NHANES</span>
+    <span class="tag">R</span>
+    <span class="tag">Environmental Health</span>
+  </div>
+  <p>Lead exposure remains a significant but underappreciated public health threat in the United States. This project used the NHANES 2015&ndash;16 dataset to examine the association between blood lead levels and hypertension in U.S. adults, applying advanced quantitative methods with careful attention to confounding factors and mediation pathways in R. The analysis contributes to evidence on how environmental toxin exposure shapes cardiovascular disease risk across populations.</p>
+</div>
 
-<p style="font-size: 0.9rem; color: #5a6a70; margin-top: 1rem;">
+<div class="project-card">
+  <h3>Nurture First: Breastfeeding &amp; Complementary Feeding in Rural Vietnam</h3>
+  <div class="project-tags">
+    <span class="tag">Nutrition</span>
+    <span class="tag">Program Design</span>
+    <span class="tag">Global Health</span>
+    <span class="tag">UNICEF</span>
+  </div>
+  <p>Inadequate infant feeding practices contribute to child malnutrition and stunting globally. This project designed a comprehensive nutrition program implementation plan for rural communities in Vietnam, grounded in UNICEF formative research. The plan addressed maternal nutrition knowledge, breastfeeding support, and complementary feeding practices, demonstrating applied evidence-based intervention design and program management skills.</p>
+</div>
+
+<div class="project-card">
+  <h3>Healthy Heart Program Evaluation: School-Based NCD Prevention, Argentina</h3>
+  <div class="project-tags">
+    <span class="tag">Program Evaluation</span>
+    <span class="tag">M&amp;E</span>
+    <span class="tag">NCD Prevention</span>
+    <span class="tag">Adolescent Health</span>
+  </div>
+  <p>Non-communicable diseases like heart disease and diabetes are increasingly affecting young people globally. This project designed a monitoring and evaluation (M&amp;E) framework for a school-based nutrition and physical activity intervention in Argentina targeting adolescent NCD prevention. The framework assessed program reach, implementation fidelity, and health outcomes using evidence-based M&amp;E methods including RE-AIM.</p>
+</div>
+
+<div class="project-card">
+  <h3>HPV Vaccination Policy Brief &mdash; Bihar, India</h3>
+  <div class="project-tags">
+    <span class="tag">Health Policy</span>
+    <span class="tag">Immunization</span>
+    <span class="tag">Health Equity</span>
+    <span class="tag">India</span>
+  </div>
+  <p>HPV vaccination can prevent the majority of cervical cancer cases, yet coverage remains uneven across populations and geographies. This evidence-based policy brief analyzed HPV vaccination coverage gaps and equity considerations in Bihar, India, one of the country's most underserved states, and proposed actionable recommendations for improving immunization uptake among priority populations.</p>
+</div>
+
+<div class="project-card">
+  <h3>Carbon Reduction Challenge &mdash; Georgia Tech Initiative</h3>
+  <div class="project-tags">
+    <span class="tag">Climate</span>
+    <span class="tag">Sustainability</span>
+    <span class="tag">ESG</span>
+    <span class="tag">Interdisciplinary</span>
+  </div>
+  <p>In a cross-disciplinary collaboration with Georgia Tech engineering students and Energy Efficient Technologies (EET), this project analyzed HVAC oil fouling, a common and costly source of energy waste in large buildings. The team designed an efficiency intervention projected to save $39M annually, cut carbon emissions by 18,000 tons, and reduce energy consumption by 10M+ kWh per year, directly aligned with corporate ESG and sustainability reporting goals.</p>
+</div>
+
+<p style="font-size:0.95rem; color:#5a6a70; margin-top:1.5rem;">
   <i class="fab fa-github"></i> Explore all repositories on my <a href="https://github.com/TanmayeeKodali?tab=repositories" target="_blank">GitHub profile</a>.
 </p>
+</div>
 
 <script>
 // Replace GitHub and LinkedIn navbar text with Font Awesome icons after page loads

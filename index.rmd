@@ -1,14 +1,15 @@
 ---
-title: ""
+title: "Tanmayee Kodali"
 ---
 
 ```{=html}
 <div class="profile-section">
-   <div class="profile-avatar"><img src="photo.jpg" alt="Tanmayee Kodali" width="120" height="120"></div>
+  <div class="profile-avatar"><img src="photo.jpg" alt="Tanmayee Kodali" width="120" height="120"></div>
   <div class="profile-info">
     <h1>Tanmayee Kodali</h1>
     <p class="tagline">MPH in Global Health &middot; Rollins School of Public Health, Emory University (Class of 2026)</p>
-    <p>Public health professional with 5+ years of experience analyzing population health challenges and developing evidence-based strategies to address them. Proven expertise in program evaluation, technical assistance delivery, and multi-stakeholder collaboration across government, philanthropy, and research settings. Skilled in data analysis, training development, and translating research into actionable interventions that strengthen public health systems&mdash;with a focus on maternal health, climate change, and health equity in low-resource contexts.</p>
+    <p>Public health professional with 5+ years of experience analyzing population health challenges and developing evidence-based strategies to address them. Proven expertise in program evaluation, technical assistance delivery, and multi-stakeholder collaboration across government, philanthropy, and research settings. Skilled in data analysis, training development, and translating research into actionable interventions that strengthen public health systems.</p>
+    <p>I am motivated by the belief that many of the world's hardest health problems already have solutions somewhere, in evidence, in practice, or in communities. Global health is about connecting those solutions across people, places, and systems so that progress in one setting can strengthen health everywhere.</p>
   </div>
 </div>
 ```
@@ -56,9 +57,12 @@ title: ""
 ## Get in Touch
 
 ```{=html}
-<p>
-  <i class="fab fa-github"></i> <a href="https://github.com/TanmayeeKodali" target="_blank">github.com/TanmayeeKodali</a>
-  &nbsp;&nbsp;
-  <i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/tanmayeekodali/" target="_blank">linkedin.com/in/tanmayeekodali</a>
-</p>
+<div style="background:#e8f4f5; border-left:4px solid #0f6b72; border-radius:0 8px 8px 0; padding:1.2rem 1.8rem; display:inline-block; margin-top:0.5rem;">
+  <p style="margin:0 0 0.5rem; font-weight:600; color:#1a2e35; font-size:1rem;">Connect with me</p>
+  <p style="margin:0; font-size:0.97rem; color:#3a4a4e;">
+    <i class="fab fa-github"></i> <a href="https://github.com/TanmayeeKodali" target="_blank">github.com/TanmayeeKodali</a>
+    &nbsp;&nbsp;&middot;&nbsp;&nbsp;
+    <i class="fab fa-linkedin-in"></i> <a href="https://www.linkedin.com/in/tanmayeekodali/" target="_blank">linkedin.com/in/tanmayeekodali</a>
+  </p>
+</div>
 ```
