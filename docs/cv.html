@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Curriculum Vitae</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Tnx8e/hbT/EKV8IssGEBe2qJDMaLKUQ3gHqUyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Google Fonts: Merriweather (headings) + Work Sans (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Tanmayee Kodali</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/TanmayeeKodali">&lt;i class="fab fa-github"&gt;&lt;/i&gt; GitHub</a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/tanmayeekodali/">&lt;i class="fab fa-linkedin-in"&gt;&lt;/i&gt; LinkedIn</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Curriculum Vitae</h1>
+
+</div>
+
+
+<div class="cv-section">
+<h2>
+Education
+</h2>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Master of Public Health (MPH), Global
+Health</span> <span class="cv-entry-date">Expected May 2026</span></p>
+</div>
+<div class="cv-entry-org">
+Rollins School of Public Health, Emory University · Atlanta, GA · GPA:
+3.96/4.00
+</div>
+<ul class="cv-bullets">
+<li>
+Certificates: Data Science; Climate Change &amp; Health
+</li>
+<li>
+Coursework: Health Economic Evaluations, Epidemiologic Methods,
+Biostatistics, Applied Machine Learning, Implementation Science, R
+Programming, SAS, Python, Monitoring &amp; Evaluation, Evidence-Based
+Global Health Policy
+</li>
+</ul>
+<div class="cv-entry">
+<p><span class="cv-entry-title">M.A., Economics</span> <span
+class="cv-entry-date">June 2016</span></p>
+</div>
+<div class="cv-entry-org">
+Amity School of Economics, Amity University · Uttar Pradesh, India ·
+GPA: 8.28/10
+</div>
+<div class="cv-entry">
+<p><span class="cv-entry-title">B.A. (Hons.), Economics</span> <span
+class="cv-entry-date">June 2014</span></p>
+</div>
+<div class="cv-entry-org">
+Miranda House, Delhi University · New Delhi, India
+</div>
+</div>
+<hr class="section-divider">
+<div class="cv-section">
+<h2>
+Work Experience
+</h2>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Graduate Research Assistant</span> <span
+class="cv-entry-date">May 2025 – Present</span></p>
+</div>
+<div class="cv-entry-org">
+Emory CPCRN / Emory Prevention Research Centre (EPRC) · Atlanta, GA
+</div>
+<ul class="cv-bullets">
+<li>
+Lead mixed-methods program evaluation of lung cancer screening (LCS)
+interventions using data from 250+ healthcare providers, applying RE-AIM
+and CFIR implementation science frameworks
+</li>
+<li>
+Performed statistical analysis in R and Qualtrics for peer-reviewed
+publication; co-authored manuscript currently under review (Escoffrey et
+al., 2026)
+</li>
+<li>
+Presented findings at the 2025 Conference on the Science of
+Dissemination and Implementation in Health (National Harbor, MD)
+</li>
+<li>
+Designed training programs and readiness assessments for primary care
+providers in rural Southwest Georgia
+</li>
+</ul>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Research Assistant</span> <span
+class="cv-entry-date">September 2025 – Present</span></p>
+</div>
+<div class="cv-entry-org">
+Fridovich-Keil Lab, Dept. of Human Genetics, Emory School of Medicine ·
+Atlanta, GA
+</div>
+<ul class="cv-bullets">
+<li>
+Conducted scoping review on growth and pubertal outcomes in children
+with Classic Galactosemia (CG)
+</li>
+<li>
+Performed cross-sectional and longitudinal analyses in R using linear
+mixed-effects models, benchmarked against CDC 2000 reference norms
+</li>
+<li>
+Managed longitudinal clinical database across multiple domains in REDCap
+</li>
+</ul>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Teaching Assistant — Global Health
+500</span> <span class="cv-entry-date">August – December 2025</span></p>
+</div>
+<div class="cv-entry-org">
+Rollins School of Public Health, Emory University · Atlanta, GA
+</div>
+<div class="cv-entry">
+<p><span class="cv-entry-title">FACE Intern</span> <span
+class="cv-entry-date">September 2024 – May 2025</span></p>
+</div>
+<div class="cv-entry-org">
+The Task Force for Global Health · Atlanta, GA
+</div>
+<ul class="cv-bullets">
+<li>
+Supported LRI Amsterdam compassionate healthcare project for leprosy
+patients in India
+</li>
+<li>
+Conducted literature review on ethical considerations in NTDs for Merck
+Germany
+</li>
+</ul>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Consultant</span> <span
+class="cv-entry-date">November 2021 – June 2024</span></p>
+</div>
+<div class="cv-entry-org">
+Sattva Media &amp; Consulting Pvt. Ltd · New Delhi, India
+</div>
+<ul class="cv-bullets">
+<li>
+Led state-level health systems strengthening initiative in Bihar,
+coordinating with the Government of Bihar, Gates Foundation, and
+community stakeholders across 38 districts
+</li>
+<li>
+Directed Bihar State Health Digital Transformation Project across 11,725
+healthcare facilities; delivered real-time Power BI command center with
+NICU monitoring feeds
+</li>
+<li>
+Implemented and evaluated Sanitary Napkin Initiative across 143 medical
+institutions and 687 healthcare facilities
+</li>
+<li>
+Represented the Government of Bihar at IMNHC 2023, Cape Town
+</li>
+</ul>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Policy Research Associate</span> <span
+class="cv-entry-date">May 2017 – January 2019</span></p>
+</div>
+<div class="cv-entry-org">
+PROAct, Derek O’Brien &amp; Associates Pvt. Ltd · New Delhi, India
+</div>
+<ul class="cv-bullets">
+<li>
+Led six-person team producing policy and legislative research for
+Parliament and Standing Committees
+</li>
+<li>
+Advised Chairman of the Parliamentary Standing Committee on Transport,
+Tourism &amp; Culture on five major policy topics
+</li>
+</ul>
+<div class="cv-entry">
+<p><span class="cv-entry-title">LAMP Fellow</span> <span
+class="cv-entry-date">June 2016 – April 2017</span></p>
+</div>
+<div class="cv-entry-org">
+PRS Legislative Research · New Delhi, India
+</div>
+<ul class="cv-bullets">
+<li>
+Advised on 15+ legislations; drafted 10+ parliamentary motions and 45+
+parliamentary questions
+</li>
+<li>
+Designed Private Member’s Legislation for the Protection of Rhinos;
+co-authored article with MP Gaurav Gogoi
+</li>
+</ul>
+</div>
+<hr class="section-divider">
+<div class="cv-section">
+<h2>
+Publications &amp; Conferences
+</h2>
+<div class="pub-entry">
+<p>Escoffrey C, Lynam M, <strong>Kodali T</strong>, Anderson S, Kadoo R,
+Wells J, Moorshed AB, Sazdovska S, Wen F, Niyyar R (2026). A Systematic
+Review of Interventions to Increase Uptake of Lung Cancer Screening in
+the United States. <em>Manuscript under Review.</em></p>
+</div>
+<div class="pub-entry">
+<p>Escoffrey C, Lynam M, <strong>Kodali T</strong>, Haardoerfer R, Hotz
+J, Yates J (2025). Lung Cancer Screening Survey among Georgia Healthcare
+Providers: Blueprint for lung cancer screening programs in Primary Care.
+<em>Poster, Conference on the Science of Dissemination and
+Implementation in Health; December 2025; National Harbor, MD.</em></p>
+</div>
+</div>
+<hr class="section-divider">
+<div class="cv-section">
+<h2>
+Skills
+</h2>
+<strong>Statistical &amp; Analytical</strong>
+<div class="skills-grid">
+<p><span class="skill-tag">R (Intermediate)</span> <span
+class="skill-tag">Python (Intermediate)</span> <span
+class="skill-tag">SAS (Intermediate)</span> <span
+class="skill-tag">SPSS</span> <span class="skill-tag">Qualtrics</span>
+<span class="skill-tag">REDCap</span></p>
+</div>
+<strong>Visualization &amp; Informatics</strong>
+<div class="skills-grid">
+<p><span class="skill-tag">Tableau</span> <span class="skill-tag">Power
+BI</span> <span class="skill-tag">ArcGIS</span> <span
+class="skill-tag">Excel (Advanced)</span></p>
+</div>
+<strong>Research &amp; Policy</strong>
+<div class="skills-grid">
+<p><span class="skill-tag">Program Evaluation</span> <span
+class="skill-tag">Systematic Reviews</span> <span
+class="skill-tag">Implementation Science</span> <span
+class="skill-tag">RE-AIM / CFIR</span> <span class="skill-tag">Mixed
+Methods</span> <span class="skill-tag">Policy Analysis</span> <span
+class="skill-tag">Stakeholder Engagement</span></p>
+</div>
+<p><strong>Languages:</strong> Telugu (Native) · Hindi (Native) ·
+English (Highly Proficient)</p>
+</div>
+<hr class="section-divider">
+<div class="cv-section">
+<h2>
+Honors &amp; Awards
+</h2>
+<div class="award-item">
+🏆 Recognition Award — Shri Nitish Kumar, Chief Minister of Bihar
+(2022–23)
+</div>
+<div class="award-item">
+🏆 Best Performer Award — Department of Health, Government of Bihar
+(July 2023)
+</div>
+<div class="award-item">
+🏆 Citation — Deputy Chief Minister-cum-Health Minister, Bihar (March
+2023)
+</div>
+<div class="award-item">
+🏆 Achiever’s Award — Vice Chancellor, Amity University (May 2016)
+</div>
+</div>
+<hr class="section-divider">
+<div class="cv-section">
+<h2>
+Leadership
+</h2>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Program Manager — International
+Education Peace Volunteers (IEPV), Atlanta</span> <span
+class="cv-entry-date">Jan 2025 – Present</span></p>
+</div>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Co-VP — Rollins Environmental Health
+Action Coalition (REHAC), RSPH</span> <span class="cv-entry-date">Jan –
+Dec 2025</span></p>
+</div>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Treasurer — Emory Students for One
+Health (ESOH), RSPH</span> <span class="cv-entry-date">Jan – Dec
+2025</span></p>
+</div>
+<div class="cv-entry">
+<p><span class="cv-entry-title">Vice-President — Rollins mHealth
+Collaboration (RmC), RSPH</span> <span class="cv-entry-date">Jan – Dec
+2025</span></p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+name: "tanmayee-kodali"
+output_dir: "docs"
+
+navbar:
+  title: "Tanmayee Kodali"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+    - text: "CV"
+      href: cv.html
+  right:
+    - text: '<i class="fab fa-github"></i> GitHub'
+      href: https://github.com/TanmayeeKodali
+    - text: '<i class="fab fa-linkedin-in"></i> LinkedIn'
+      href: https://www.linkedin.com/in/tanmayeekodali/
+
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+    includes:
+      in_header: header.html

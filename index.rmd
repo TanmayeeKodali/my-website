@@ -1,0 +1,57 @@
+---
+title: ""
+---
+
+<div class="profile-section">
+  <div class="profile-avatar"><img src="photo.jpg" alt="Tanmayee Kodali" width="120" height="120">
+  </div>
+  <div class="profile-info">
+    <h1>Tanmayee Kodali</h1>
+    <p class="tagline">MPH in Global Health &middot; Rollins School of Public Health, Emory University (Class of 2026)</p>
+    <p>Public health professional with 5+ years of experience analyzing population health challenges and developing evidence-based strategies to address them. Proven expertise in program evaluation, technical assistance delivery, and multi-stakeholder collaboration across government, philanthropy, and research settings. Skilled in data analysis, training development, and translating research into actionable interventions that strengthen public health systems&mdash;with a focus on maternal health, climate change, and health equity in low-resource contexts.</p>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+## Areas of Expertise
+
+<div class="highlights-grid">
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-globe-americas"></i></div>
+    <h4>Global Health</h4>
+    <p>Maternal &amp; child health, health systems strengthening, equity-focused interventions in LMICs</p>
+  </div>
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+    <h4>Data &amp; Analytics</h4>
+    <p>R, Python, SAS, REDCap, Tableau, Power BI; statistical modeling &amp; visualization</p>
+  </div>
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-cloud-sun-rain"></i></div>
+    <h4>Climate &amp; Health</h4>
+    <p>Climate adaptation modeling, cost-effectiveness analysis, CMIP6 projections</p>
+  </div>
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-search"></i></div>
+    <h4>Research &amp; Policy</h4>
+    <p>Implementation science (RE-AIM, CFIR), systematic reviews, policy briefs, M&amp;E</p>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+## Recent Highlights
+
+- **Publication under review** &mdash; *A Systematic Review of Interventions to Increase Uptake of Lung Cancer Screening in the United States* (Escoffrey et al., 2026)
+- **Conference presentation** &mdash; Lung Cancer Screening Survey among Georgia Healthcare Providers, *Conference on the Science of Dissemination &amp; Implementation in Health*, December 2025
+- **Certificates** &mdash; Data Science &amp; Climate Change and Health, Rollins School of Public Health
+- **GPA 3.96/4.00** &mdash; Recognition Award by Chief Minister of Bihar (2022&ndash;23); Best Performer Award, Government of Bihar (2023)
+
+<hr class="section-divider">
+
+## Get in Touch
+
+<i class="fab fa-github"></i> [github.com/TanmayeeKodali](https://github.com/TanmayeeKodali){target="_blank"} &nbsp;&nbsp;
+<i class="fab fa-linkedin-in"></i> [linkedin.com/in/tanmayeekodali](https://www.linkedin.com/in/tanmayeekodali/){target="_blank"} &nbsp;&nbsp;
+<i class="fas fa-envelope"></i> [tanmayeekodali@gmail.com](mailto:tanmayeekodali@gmail.com)
