@@ -391,3 +391,37 @@ pre {
   margin-bottom: 0.3rem;
   margin-top: 0.8rem;
 }
+
+/* ===== FORCE NAVBAR SIZE OVERRIDE ===== */
+.navbar,
+.navbar-default {
+  min-height: 72px !important;
+}
+
+.navbar-brand,
+.navbar-default .navbar-brand {
+  font-family: 'Merriweather', Georgia, serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+  line-height: 1.2 !important;
+  height: auto !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+  color: #ffffff !important;
+}
+
+.navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a {
+  font-family: 'Work Sans', sans-serif !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  color: #d4f0f2 !important;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff !important;
+}
