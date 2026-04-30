@@ -11,9 +11,9 @@ navbar:
     - text: "CV"
       href: cv.html
   right:
-    - text: '<i class="fab fa-github"></i> GitHub'
+    - text: "GitHub"
       href: https://github.com/TanmayeeKodali
-    - text: '<i class="fab fa-linkedin-in"></i> LinkedIn'
+    - text: "LinkedIn"
       href: https://www.linkedin.com/in/tanmayeekodali/
 
 output:
@@ -22,3 +22,4 @@ output:
     css: styles.css
     includes:
       in_header: header.html
+      after_body: footer.html

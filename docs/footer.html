@@ -1,0 +1,16 @@
+<script>
+// Replace GitHub and LinkedIn navbar text with Font Awesome icons after page loads
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll(".navbar-nav a");
+  links.forEach(function(link) {
+    if (link.textContent.trim() === "GitHub") {
+      link.innerHTML = '<i class="fab fa-github"></i> GitHub';
+      link.setAttribute("target", "_blank");
+    }
+    if (link.textContent.trim() === "LinkedIn") {
+      link.innerHTML = '<i class="fab fa-linkedin-in"></i> LinkedIn';
+      link.setAttribute("target", "_blank");
+    }
+  });
+});
+</script>

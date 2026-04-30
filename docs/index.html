@@ -261,10 +261,10 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/TanmayeeKodali">&lt;i class="fab fa-github"&gt;&lt;/i&gt; GitHub</a>
+  <a href="https://github.com/TanmayeeKodali">GitHub</a>
 </li>
 <li>
-  <a href="https://www.linkedin.com/in/tanmayeekodali/">&lt;i class="fab fa-linkedin-in"&gt;&lt;/i&gt; LinkedIn</a>
+  <a href="https://www.linkedin.com/in/tanmayeekodali/">LinkedIn</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -340,6 +340,22 @@ of Bihar (2022–23); Best Performer Award, Government of Bihar
 </p>
 </div>
 
+<script>
+// Replace GitHub and LinkedIn navbar text with Font Awesome icons after page loads
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll(".navbar-nav a");
+  links.forEach(function(link) {
+    if (link.textContent.trim() === "GitHub") {
+      link.innerHTML = '<i class="fab fa-github"></i> GitHub';
+      link.setAttribute("target", "_blank");
+    }
+    if (link.textContent.trim() === "LinkedIn") {
+      link.innerHTML = '<i class="fab fa-linkedin-in"></i> LinkedIn';
+      link.setAttribute("target", "_blank");
+    }
+  });
+});
+</script>
 
 
 

@@ -42,21 +42,25 @@ pre {
 .navbar {
   font-family: 'Work Sans', sans-serif;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
   background-color: #0f6b72 !important;
   border-bottom: 3px solid #0a4d53;
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 1.5rem;
 }
 
 .navbar-brand {
   font-family: 'Merriweather', Georgia, serif;
-  font-size: 1.1rem !important;
+  font-size: 1.35rem !important;
   color: #ffffff !important;
   letter-spacing: 0.01em;
+  font-weight: 700 !important;
 }
 
 .navbar-nav > li > a {
   color: #d4f0f2 !important;
+  font-size: 1.05rem !important;
+  padding-top: 0.6rem !important;
+  padding-bottom: 0.6rem !important;
   transition: color 0.2s ease;
 }
 
@@ -69,8 +73,8 @@ pre {
 
 .navbar-nav > li > a .fab,
 .navbar-nav > li > a .fas {
-  font-size: 1rem;
-  margin-right: 4px;
+  font-size: 1.05rem;
+  margin-right: 5px;
 }
 
 /* --- Hero / Profile Section ------------------------------- */
