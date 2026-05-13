@@ -7,7 +7,7 @@ title: ""
   <div class="profile-avatar"><img src="photo.jpg" alt="Tanmayee Kodali" width="145" height="145"></div>
   <div class="profile-info">
     <h1>Tanmayee Kodali</h1>
-    <p class="tagline">MPH in Global Health &middot; Rollins School of Public Health, Emory University (Class of 2026)</p>
+    <p class="tagline">MPH in Global Health &middot; Rollins School of Public Health, Emory University</p>
     <p>Public health researcher and implementation strategist with 7+ years of experience spanning large-scale program delivery in LMICs, strategy consulting, cost-effectiveness analysis, and policy research in government settings. I connect quantitative rigor with on-the-ground implementation, translating evidence and strategy into action that creates lasting impact.</p>
     <p>I am motivated by the belief that many of the world's hardest health problems already have solutions somewhere, in evidence, in practice, or in communities. Global health is about connecting those solutions across people, places, and systems so that progress in one setting can strengthen health everywhere.</p>
   </div>
@@ -47,6 +47,8 @@ title: ""
 
 ## Recent Highlights
 
+
+- **Interactive CEA Dashboard** &mdash; *Climate Adaptation & Maternal Mortality: heat-stable carbetocin cost-effectiveness across 128 LMIC countries* [Live Dashboard](https://kzja3g-tanmayee-kodali.shinyapps.io/climate-pph-dashboard/){target="_blank"}
 - **Publication under review** &mdash; *A Systematic Review of Interventions to Increase Uptake of Lung Cancer Screening in the United States* (Escoffrey et al., 2026)
 - **Conference presentation** &mdash; Lung Cancer Screening Survey among Georgia Healthcare Providers, *Conference on the Science of Dissemination &amp; Implementation in Health*, December 2025
 - **Certificates** &mdash; Data Science &amp; Climate Change and Health, Rollins School of Public Health
