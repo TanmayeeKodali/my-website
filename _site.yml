@@ -2,7 +2,7 @@ name: "tanmayee-kodali"
 output_dir: "docs"
 
 navbar:
-  title: "Tanmayee Kodali"
+  title: "Tanmayee Kodali, MPH, MEcon"
   left:
     - text: "Home"
       href: index.html
