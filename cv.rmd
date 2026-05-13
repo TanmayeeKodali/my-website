@@ -13,7 +13,7 @@ title: "Curriculum Vitae"
 <div class="cv-entry-org">Rollins School of Public Health, Emory University &middot; Atlanta, GA &middot; GPA: 3.96/4.00</div>
 <ul class="cv-bullets">
   <li>Certificates: Data Science; Climate Change &amp; Health</li>
-  <li>Coursework: Health Economic Evaluations, Epidemiologic Methods, Biostatistics, Applied Machine Learning, Implementation Science, R Programming, SAS, Python, Monitoring &amp; Evaluation, Evidence-Based Global Health Policy, GIS, Social Impact Management</li>
+  <li>Coursework: Health Economic Evaluations, Epidemiologic Methods, Program Evaluation, Implementation Science, Evidence-Based Global Health Policy, Biostatistics, Social Impact Management, Applied Machine Learning, R Programming, Environmental Law &amp; Policy, SAS, Python, GIS</li>
 </ul>
 
 <div class="cv-entry">

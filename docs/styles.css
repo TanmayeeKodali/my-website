@@ -227,7 +227,7 @@ box-shadow: 0 6px 24px rgba(15, 107, 114, 0.13);
 .project-card h3 {
 color: #0f6b72;
 margin-top: 0;
-font-size: 1.35rem;
+font-size: 1.4rem;
 }
 
 /* CHANGE 7: Project card body text from 1rem → 1.1rem */
@@ -248,7 +248,7 @@ margin: 0.8rem 0 1rem;
 .project-card .tag {
 background: #e0f2f3;
 color: #0a4d53;
-font-size: 1rem;
+font-size: 1.1rem;
 font-weight: 600;
 padding: 0.25rem 0.65rem;
 border-radius: 20px;
@@ -444,7 +444,7 @@ line-height: 1.85;
 /* Plain ul/li on index page — keep readable but not oversized */
 .main-container ul li,
 .main-container ol li {
-font-size: 1.2rem !important;
+font-size: 1.35rem !important;
 line-height: 1.75 !important;
 }
 
