@@ -8,7 +8,7 @@ title: "Curriculum Vitae"
 
 <div class="cv-entry">
   <span class="cv-entry-title">Master of Public Health (MPH), Global Health</span>
-  <span class="cv-entry-date">Expected May 2026</span>
+  <span class="cv-entry-date">May 2026</span>
 </div>
 <div class="cv-entry-org">Rollins School of Public Health, Emory University &middot; Atlanta, GA &middot; GPA: 3.96/4.00</div>
 <ul class="cv-bullets">
@@ -50,7 +50,7 @@ title: "Curriculum Vitae"
 
 <div class="cv-entry">
   <span class="cv-entry-title">Research Assistant</span>
-  <span class="cv-entry-date">September 2025 &ndash; Present</span>
+  <span class="cv-entry-date">September 2025 &ndash; May 2026</span>
 </div>
 <div class="cv-entry-org">Fridovich-Keil Lab, Dept. of Human Genetics, Emory School of Medicine &middot; Atlanta, GA</div>
 <ul class="cv-bullets">
@@ -120,6 +120,10 @@ title: "Curriculum Vitae"
   <li>Advised on 15+ legislations and policies; drafted more than 10 parliamentary motions, debates, and 45+ parliamentary questions</li>
   <li>Designed and put forward a Private Member's Legislation for the Protection of Rhinos by establishing a National Rhino Conservation Authority</li>
   <li>Co-authored an article with Mr Gogoi titled "Aiming for zero poaching of rhinos"</li>
+  <li>Worked on ‘The MPLADS INSIGHT’, a Member of Parliament Initiative by Mr. Gogoi. A
+research Publication highlighting the major developmental schemes being undertaken
+across India<li>
+  <li>Volunteered at 'Youth Forum on Foreign Policy', an initiative by Mr. Gogoi for youth to interact with the Ambassadors of other countries on Foreign Policies<li>
 </ul>
 </div>
 
@@ -139,6 +143,15 @@ title: "Curriculum Vitae"
 
 <div class="cv-section">
 <h2>Skills</h2>
+
+<p><strong>Professional Skills</strong></p>
+<div class="skills-grid">
+  <span class="skill-tag">Program &amp; Project Management</span>
+  <span class="skill-tag">Stakeholder &amp; Funder Engagement</span>
+  <span class="skill-tag">Training &amp; Capacity Development</span>
+  <span class="skill-tag">Policy Brief Writing (Advanced)</span>
+  <span class="skill-tag">Grant/Report Writing</span>
+</div>
 
 <p><strong>Statistical &amp; Analytical</strong></p>
 <div class="skills-grid">
@@ -187,6 +200,7 @@ title: "Curriculum Vitae"
 
 <div class="cv-section">
 <h2>Honors &amp; Awards</h2>
+<div class="award-item">&#127942; Outstanding Capstone Award &mdash; Hubert Department of Global Health, Rollins School of Public Health, Emory University (2026)</div>
 <div class="award-item">&#127942; Recognition Award &mdash; Shri Nitish Kumar, Chief Minister of Bihar (2022&ndash;23)</div>
 <div class="award-item">&#127942; Best Performer Award &mdash; Department of Health, Government of Bihar (July 2023)</div>
 <div class="award-item">&#127942; Citation &mdash; Deputy Chief Minister-cum-Health Minister, Bihar (March 2023)</div>

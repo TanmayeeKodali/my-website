@@ -1,40 +1,40 @@
 /* ============================================================
-   TANMAYEE KODALI — Personal Website Styles
-   Accent: Deep teal #0f6b72
-   Fonts: Merriweather (headings) + Work Sans (body)
-   ============================================================ */
+TANMAYEE KODALI — Personal Website Styles
+Accent: Deep teal #0f6b72
+Fonts: Merriweather (headings) + Work Sans (body)
+============================================================ */
 
 /* --- Typography & Base ------------------------------------ */
 body {
-  font-family: 'Work Sans', 'Helvetica Neue', sans-serif;
-  font-size: 17px;
-  line-height: 1.8;
-  color: #2c2c2c;
-  background-color: #fafaf8;
+font-family: 'Work Sans', 'Helvetica Neue', sans-serif;
+font-size: 17px;
+line-height: 1.8;
+color: #2c2c2c;
+background-color: #fafaf8;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Merriweather', Georgia, serif;
-  font-weight: 700;
-  line-height: 1.5;
-  color: #1a2e35;
+font-family: 'Merriweather', Georgia, serif;
+font-weight: 700;
+line-height: 1.5;
+color: #1a2e35;
 }
 
 h1 { font-size: 2.2rem; }
 h2 { font-size: 1.6rem; margin-top: 2rem; }
 h3 { font-size: 1.25rem; }
-h4 { font-size: 1.05rem; }
+h4 { font-size: 1.1rem; }      /* was 1.05rem — bumped slightly */
 
 p { max-width: 100%; }
 
 code, pre {
-  font-family: 'Source Code Pro', 'Courier New', monospace;
+font-family: 'Source Code Pro', 'Courier New', monospace;
 }
 
 pre {
-  border-radius: 6px;
-  padding: 1em;
-  background: #f0f4f4;
+border-radius: 6px;
+padding: 1em;
+background: #f0f4f4;
 }
 
 a { color: #0f6b72; }
@@ -43,374 +43,365 @@ a:hover { color: #0a4d53; }
 /* --- Navbar ----------------------------------------------- */
 .navbar,
 .navbar-default {
-  background-color: #0f6b72 !important;
-  border-bottom: 3px solid #0a4d53 !important;
-  min-height: 56px !important;
+background-color: #0f6b72 !important;
+border-bottom: 3px solid #0a4d53 !important;
+min-height: 56px !important;
 }
 
 .navbar-brand,
 .navbar-default .navbar-brand {
-  font-family: 'Merriweather', Georgia, serif !important;
-  font-size: 18px !important;
-  font-weight: 700 !important;
-  color: #ffffff !important;
-  padding-top: 16px !important;
-  padding-bottom: 16px !important;
+font-family: 'Merriweather', Georgia, serif !important;
+font-size: 18px !important;
+font-weight: 700 !important;
+color: #ffffff !important;
+padding-top: 16px !important;
+padding-bottom: 16px !important;
 }
 
 .navbar-nav > li > a,
 .navbar-default .navbar-nav > li > a {
-  font-family: 'Work Sans', sans-serif !important;
-  font-size: 15px !important;
-  font-weight: 600 !important;
-  color: #d4f0f2 !important;
-  padding-top: 18px !important;
-  padding-bottom: 18px !important;
+font-family: 'Work Sans', sans-serif !important;
+font-size: 15px !important;
+font-weight: 600 !important;
+color: #d4f0f2 !important;
+padding-top: 18px !important;
+padding-bottom: 18px !important;
 }
 
 .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff !important;
-  background-color: rgba(255,255,255,0.15) !important;
-  border-radius: 4px;
+color: #ffffff !important;
+background-color: rgba(255,255,255,0.15) !important;
+border-radius: 4px;
 }
 
 .navbar-nav > li > a .fab,
 .navbar-nav > li > a .fas {
-  font-size: 1rem;
-  margin-right: 5px;
+font-size: 1rem;
+margin-right: 5px;
 }
 
 /* --- Profile / Hero Section ------------------------------- */
 .profile-section {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 2rem;
-  background: linear-gradient(135deg, #e8f4f5 0%, #f0fafa 100%);
-  border-left: 5px solid #0f6b72;
-  border-radius: 0 10px 10px 0;
-  padding: 2rem 2.5rem;
-  margin-bottom: 2.5rem;
-  box-sizing: border-box;
-  width: 100%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 2rem;
+background: linear-gradient(135deg, #e8f4f5 0%, #f0fafa 100%);
+border-left: 5px solid #0f6b72;
+border-radius: 0 10px 10px 0;
+padding: 2rem 2.5rem;
+margin-bottom: 2.5rem;
+box-sizing: border-box;
+width: 100%;
 }
 
+/* CHANGE 1: Photo size increased from 110px → 145px */
 .profile-avatar {
-  width: 110px;
-  height: 110px;
-  min-width: 110px;
-  border-radius: 50%;
-  background-color: #0f6b72;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Merriweather', serif;
-  font-size: 2rem;
-  font-weight: 700;
-  color: #ffffff;
-  box-shadow: 0 4px 16px rgba(15, 107, 114, 0.25);
-  overflow: hidden;
+width: 145px;
+height: 145px;
+min-width: 145px;
+border-radius: 50%;
+background-color: #0f6b72;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Merriweather', serif;
+font-size: 2.5rem;
+font-weight: 700;
+color: #ffffff;
+box-shadow: 0 4px 16px rgba(15, 107, 114, 0.25);
+overflow: hidden;
 }
 
 .profile-avatar img {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  object-fit: cover;
+width: 145px;
+height: 145px;
+border-radius: 50%;
+object-fit: cover;
 }
 
 .profile-info {
-  flex: 1;
-  min-width: 0;
+flex: 1;
+min-width: 0;
 }
 
 .profile-info h1 {
-  margin-top: 0;
-  margin-bottom: 0.3rem;
-  font-size: 2.2rem;
-  color: #0f6b72;
+margin-top: 0;
+margin-bottom: 0.3rem;
+font-size: 2.2rem;
+color: #0f6b72;
 }
 
+/* CHANGE 2: Tagline font-size 1.0rem → 1.1rem */
 .profile-info .tagline {
-  font-size: 1.0rem;
-  color: #5a6a70;
-  font-style: italic;
-  margin-bottom: 0.8rem;
+font-size: 1.1rem;
+color: #5a6a70;
+font-style: italic;
+margin-bottom: 0.8rem;
 }
 
+/* CHANGE 3: Description paragraph font-size 1.05rem → 1.15rem */
 .profile-info p {
-  font-size: 1.05rem;
-  color: #3a4a4e;
-  margin-bottom: 0;
-  line-height: 1.75;
-  text-align: justify;
-  max-width: 100%;
+font-size: 1.15rem;
+color: #3a4a4e;
+margin-bottom: 0;
+line-height: 1.8;
+text-align: justify;
+max-width: 100%;
 }
 
 /* --- Section Divider -------------------------------------- */
 .section-divider {
-  border: none;
-  border-top: 2px solid #d8eaea;
-  margin: 2.5rem 0;
+border: none;
+border-top: 2px solid #d8eaea;
+margin: 2.5rem 0;
 }
 
 /* --- Expertise Cards -------------------------------------- */
 .highlights-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.2rem;
-  margin: 1.5rem 0 2rem;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+gap: 1.2rem;
+margin: 1.5rem 0 2rem;
 }
 
 .highlight-card {
-  background: #ffffff;
-  border: 1px solid #d8eaea;
-  border-top: 3px solid #0f6b72;
-  border-radius: 8px;
-  padding: 1.4rem 1.5rem;
-  box-shadow: 0 2px 8px rgba(15, 107, 114, 0.07);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+background: #ffffff;
+border: 1px solid #d8eaea;
+border-top: 3px solid #0f6b72;
+border-radius: 8px;
+padding: 1.4rem 1.5rem;
+box-shadow: 0 2px 8px rgba(15, 107, 114, 0.07);
+transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .highlight-card:hover {
-  box-shadow: 0 6px 18px rgba(15, 107, 114, 0.14);
-  transform: translateY(-2px);
+box-shadow: 0 6px 18px rgba(15, 107, 114, 0.14);
+transform: translateY(-2px);
 }
 
 .highlight-card .card-icon {
-  font-size: 1.8rem;
-  margin-bottom: 0.6rem;
-  color: #0f6b72;
+font-size: 1.8rem;
+margin-bottom: 0.6rem;
+color: #0f6b72;
 }
 
+/* CHANGE 4: Card heading h4 from 1rem → 1.1rem */
 .highlight-card h4 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: #1a2e35;
-  margin: 0 0 0.4rem;
+font-family: 'Work Sans', sans-serif;
+font-weight: 700;
+font-size: 1.1rem;
+color: #1a2e35;
+margin: 0 0 0.5rem;
 }
 
+/* CHANGE 5: Card body text from 0.95rem → 1.05rem */
 .highlight-card p {
-  font-size: 0.95rem;
-  color: #4a5a60;
-  margin: 0;
-  line-height: 1.6;
-  max-width: 100%;
+font-size: 1.05rem;
+color: #4a5a60;
+margin: 0;
+line-height: 1.7;
+max-width: 100%;
 }
 
 /* --- Project Cards ---------------------------------------- */
 .project-card {
-  background: #ffffff;
-  border: 1px solid #d8eaea;
-  border-radius: 10px;
-  padding: 1.8rem 2rem;
-  margin-bottom: 1.8rem;
-  box-shadow: 0 2px 10px rgba(15, 107, 114, 0.06);
-  transition: box-shadow 0.2s ease;
+background: #ffffff;
+border: 1px solid #d8eaea;
+border-radius: 10px;
+padding: 1.8rem 2rem;
+margin-bottom: 1.8rem;
+box-shadow: 0 2px 10px rgba(15, 107, 114, 0.06);
+transition: box-shadow 0.2s ease;
 }
 
 .project-card:hover {
-  box-shadow: 0 6px 24px rgba(15, 107, 114, 0.13);
+box-shadow: 0 6px 24px rgba(15, 107, 114, 0.13);
 }
 
+/* CHANGE 6: Project card title from 1.2rem → 1.3rem */
 .project-card h3 {
-  color: #0f6b72;
-  margin-top: 0;
-  font-size: 1.2rem;
+color: #0f6b72;
+margin-top: 0;
+font-size: 1.3rem;
 }
 
+/* CHANGE 7: Project card body text from 1rem → 1.1rem */
 .project-card p {
-  font-size: 1rem;
-  line-height: 1.75;
-  max-width: 100%;
+font-size: 1.1rem;
+line-height: 1.8;
+max-width: 100%;
 }
 
 .project-card .project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: 0.8rem 0 1rem;
+display: flex;
+flex-wrap: wrap;
+gap: 0.4rem;
+margin: 0.8rem 0 1rem;
 }
 
+/* CHANGE 8: Tags from 0.8rem → 0.875rem */
 .project-card .tag {
-  background: #e0f2f3;
-  color: #0a4d53;
-  font-size: 0.8rem;
-  font-weight: 600;
-  padding: 0.25rem 0.65rem;
-  border-radius: 20px;
-  font-family: 'Work Sans', sans-serif;
+background: #e0f2f3;
+color: #0a4d53;
+font-size: 0.875rem;
+font-weight: 600;
+padding: 0.25rem 0.65rem;
+border-radius: 20px;
+font-family: 'Work Sans', sans-serif;
 }
 
 .project-card .btn-github {
-  display: inline-block;
-  margin-top: 0.8rem;
-  background-color: #1a2e35;
-  color: #ffffff !important;
-  font-family: 'Work Sans', sans-serif;
-  font-size: 0.9rem;
-  font-weight: 600;
-  padding: 0.5rem 1.1rem;
-  border-radius: 6px;
-  text-decoration: none !important;
-  transition: background-color 0.2s ease;
+display: inline-block;
+margin-top: 0.8rem;
+background-color: #1a2e35;
+color: #ffffff !important;
+font-family: 'Work Sans', sans-serif;
+font-size: 0.95rem;       /* was 0.9rem */
+font-weight: 600;
+padding: 0.5rem 1.1rem;
+border-radius: 6px;
+text-decoration: none !important;
+transition: background-color 0.2s ease;
 }
 
 .project-card .btn-github:hover {
-  background-color: #0f6b72;
+background-color: #0f6b72;
 }
 
 .project-card .btn-github .fab {
-  margin-right: 5px;
+margin-right: 5px;
 }
 
 /* --- CV / Resume Page ------------------------------------- */
 .cv-section {
-  margin-bottom: 2rem;
+margin-bottom: 2rem;
 }
 
+/* CHANGE 9: CV section headings from 1rem → 1.05rem (still uppercase) */
 .cv-section h2 {
-  color: #0f6b72;
-  border-bottom: 2px solid #d8eaea;
-  padding-bottom: 0.4rem;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 700;
-  margin-top: 1.5rem;
+color: #0f6b72;
+border-bottom: 2px solid #d8eaea;
+padding-bottom: 0.4rem;
+font-size: 1.05rem;
+text-transform: uppercase;
+letter-spacing: 0.08em;
+font-family: 'Work Sans', sans-serif;
+font-weight: 700;
+margin-top: 1.5rem;
 }
 
 .cv-entry {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 0.2rem;
-  margin-bottom: 0.2rem;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap: wrap;
+gap: 0.2rem;
+margin-bottom: 0.2rem;
 }
 
+/* CHANGE 10: CV entry title from 1rem → 1.1rem */
 .cv-entry-title {
-  font-weight: 700;
-  font-size: 1rem;
-  color: #1a2e35;
+font-weight: 700;
+font-size: 1.1rem;
+color: #1a2e35;
 }
 
+/* CHANGE 11: CV date from 0.9rem → 1rem */
 .cv-entry-date {
-  font-size: 0.9rem;
-  color: #5a6a70;
-  font-style: italic;
-  white-space: nowrap;
+font-size: 1rem;
+color: #5a6a70;
+font-style: italic;
+white-space: nowrap;
 }
 
+/* CHANGE 12: CV org from 0.95rem → 1.05rem */
 .cv-entry-org {
-  font-size: 0.95rem;
-  color: #0f6b72;
-  font-weight: 500;
-  width: 100%;
+font-size: 1.05rem;
+color: #0f6b72;
+font-weight: 500;
+width: 100%;
 }
 
+/* CHANGE 13: CV bullet list from 0.95rem → 1.05rem */
 .cv-bullets {
-  list-style-type: disc;
-  padding-left: 1.4rem;
-  margin: 0.4rem 0 1.2rem;
-  font-size: 0.95rem;
-  color: #3a4a4e;
-  line-height: 1.7;
+list-style-type: disc;
+padding-left: 1.4rem;
+margin: 0.4rem 0 1.2rem;
+font-size: 1.05rem;
+color: #3a4a4e;
+line-height: 1.8;
 }
 
 .cv-bullets li {
-  margin-bottom: 0.3rem;
+margin-bottom: 0.3rem;
 }
 
 /* Skills tags */
 .skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.45rem;
-  margin: 0.4rem 0 1.2rem;
+display: flex;
+flex-wrap: wrap;
+gap: 0.45rem;
+margin: 0.4rem 0 1.2rem;
 }
 
+/* CHANGE 14: Skill tags from 0.88rem → 0.95rem */
 .skill-tag {
-  background: #e8f4f5;
-  color: #0a4d53;
-  border: 1px solid #b8dfe2;
-  font-size: 0.88rem;
-  font-weight: 500;
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-family: 'Work Sans', sans-serif;
+background: #e8f4f5;
+color: #0a4d53;
+border: 1px solid #b8dfe2;
+font-size: 0.95rem;
+font-weight: 500;
+padding: 0.3rem 0.8rem;
+border-radius: 20px;
+font-family: 'Work Sans', sans-serif;
 }
 
 /* Award badges */
+/* CHANGE 15: Awards from 0.95rem → 1.05rem */
 .award-item {
-  background: #fffdf0;
-  border-left: 3px solid #c9a227;
-  padding: 0.55rem 1rem;
-  margin-bottom: 0.5rem;
-  border-radius: 0 6px 6px 0;
-  font-size: 0.95rem;
-  color: #3a4a4e;
+background: #fffdf0;
+border-left: 3px solid #c9a227;
+padding: 0.55rem 1rem;
+margin-bottom: 0.5rem;
+border-radius: 0 6px 6px 0;
+font-size: 1.05rem;
+color: #3a4a4e;
 }
 
 /* Publication entry */
+/* CHANGE 16: Publications from 0.95rem → 1.05rem */
 .pub-entry {
-  font-size: 0.95rem;
-  color: #3a4a4e;
-  line-height: 1.7;
-  margin-bottom: 0.8rem;
-  padding-left: 1rem;
-  border-left: 2px solid #d8eaea;
+font-size: 1.05rem;
+color: #3a4a4e;
+line-height: 1.75;
+margin-bottom: 0.8rem;
+padding-left: 1rem;
+border-left: 2px solid #d8eaea;
 }
 
 .pub-entry em { color: #0f6b72; }
 
 /* Skills section labels */
 .cv-section p strong {
-  font-size: 1rem;
-  color: #1a2e35;
-  display: block;
-  margin-bottom: 0.4rem;
-  margin-top: 0.8rem;
+font-size: 1.05rem;
+color: #1a2e35;
+display: block;
+margin-bottom: 0.4rem;
+margin-top: 0.8rem;
 }
 
-/* --- Responsive ------------------------------------------- */
-@media (max-width: 640px) {
-  .profile-section {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 1.4rem;
-    gap: 1.2rem;
-  }
-  .profile-avatar {
-    width: 80px;
-    height: 80px;
-    min-width: 80px;
-    font-size: 1.5rem;
-  }
-  .profile-info h1 { font-size: 1.5rem; }
-  .highlights-grid { grid-template-columns: 1fr 1fr; }
-  .project-card { padding: 1.2rem; }
-  .cv-entry { flex-direction: column; }
-  .navbar-brand,
-  .navbar-default .navbar-brand { font-size: 15px !important; }
-}
-
-@media (max-width: 400px) {
-  .highlights-grid { grid-template-columns: 1fr; }
-}
-
+/* General CV content paragraphs */
 .cv-section p {
-  font-size: 1.15rem;
-  color: #3a4a4e;
-  line-height: 1.9;
+font-size: 1.1rem;
+color: #3a4a4e;
+line-height: 1.9;
 }
 
-/* Increase all CV content font size */
+/* Blanket increase for all CV content (overrides) */
 .cv-section,
 .cv-section p,
 .cv-section li,
@@ -420,6 +411,43 @@ a:hover { color: #0a4d53; }
 .cv-section .pub-entry,
 .cv-section .award-item,
 .cv-section .skill-tag {
-  font-size: 1.15rem !important;
-  line-height: 1.9 !important;
+font-size: 1.1rem !important;
+line-height: 1.9 !important;
+}
+
+/* Keep skill tags from stretching too large due to blanket override */
+.cv-section .skill-tag {
+font-size: 0.95rem !important;
+line-height: 1.6 !important;
+}
+
+/* --- Responsive ------------------------------------------- */
+@media (max-width: 640px) {
+.profile-section {
+flex-direction: column;
+align-items: flex-start;
+padding: 1.4rem;
+gap: 1.2rem;
+}
+/* CHANGE 17: Mobile photo 80px → 105px */
+.profile-avatar {
+width: 105px;
+height: 105px;
+min-width: 105px;
+font-size: 1.8rem;
+}
+.profile-avatar img {
+width: 105px;
+height: 105px;
+}
+.profile-info h1 { font-size: 1.5rem; }
+.highlights-grid { grid-template-columns: 1fr 1fr; }
+.project-card { padding: 1.2rem; }
+.cv-entry { flex-direction: column; }
+.navbar-brand,
+.navbar-default .navbar-brand { font-size: 15px !important; }
+}
+
+@media (max-width: 400px) {
+.highlights-grid { grid-template-columns: 1fr; }
 }

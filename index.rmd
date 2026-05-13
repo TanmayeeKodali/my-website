@@ -38,7 +38,7 @@ title: ""
   <div class="highlight-card">
     <div class="card-icon"><i class="fas fa-search"></i></div>
     <h4>Research &amp; Policy</h4>
-    <p>Implementation science (RE-AIM, CFIR), systematic reviews, policy briefs, M&amp;E</p>
+    <p>Implementation science (RE-AIM, CFIR), systematic reviews, policy briefs, Monitoring &amp; Evaluation (M&amp;E)</p>
   </div>
 </div>
 ```
@@ -51,7 +51,7 @@ title: ""
 - **Conference presentation** &mdash; Lung Cancer Screening Survey among Georgia Healthcare Providers, *Conference on the Science of Dissemination &amp; Implementation in Health*, December 2025
 - **Certificates** &mdash; Data Science &amp; Climate Change and Health, Rollins School of Public Health
 - **GPA 3.96/4.00** &mdash; MPH 2024&ndash;26
-- **Awards** &mdash; Recognition Award by Chief Minister of Bihar (2022&ndash;23); Best Performer Award, Government of Bihar (2023)
+- **Awards** &mdash; Outstanding Capstone Award by Hubert Department of Global Health, Emory Univeristy (2026); Recognition Award by Chief Minister of Bihar (2022&ndash;23)
 
 ---
 
