@@ -54,8 +54,9 @@ font-family: 'Merriweather', Georgia, serif !important;
 font-size: 18px !important;
 font-weight: 700 !important;
 color: #ffffff !important;
-padding-top: 16px !important;
-padding-bottom: 16px !important;
+padding-top: 18px !important;
+padding-bottom: 14px !important;
+line-height: 20px !important; 
 }
 
 .navbar-nav > li > a,
@@ -226,7 +227,7 @@ box-shadow: 0 6px 24px rgba(15, 107, 114, 0.13);
 .project-card h3 {
 color: #0f6b72;
 margin-top: 0;
-font-size: 1.4rem;
+font-size: 1.35rem;
 }
 
 /* CHANGE 7: Project card body text from 1rem → 1.1rem */
@@ -443,7 +444,7 @@ line-height: 1.85;
 /* Plain ul/li on index page — keep readable but not oversized */
 .main-container ul li,
 .main-container ol li {
-font-size: 1.05rem !important;
+font-size: 1.2rem !important;
 line-height: 1.75 !important;
 }
 
@@ -486,7 +487,7 @@ padding: 0.35rem 0.9rem !important;
 flex-direction: column;
 align-items: flex-start;
 padding: 1.4rem;
-gap: 1.2rem;
+gap: 1.15rem;
 }
 /* CHANGE 17: Mobile photo 80px → 105px */
 .profile-avatar {
