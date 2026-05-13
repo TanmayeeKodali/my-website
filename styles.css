@@ -444,7 +444,7 @@ line-height: 1.85;
 /* Plain ul/li on index page — keep readable but not oversized */
 .main-container ul li,
 .main-container ol li {
-font-size: 1.35rem !important;
+font-size: 1.4rem !important;
 line-height: 1.75 !important;
 }
 
