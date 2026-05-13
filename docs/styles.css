@@ -421,6 +421,65 @@ font-size: 1.05rem !important;
 line-height: 1.6 !important;
 }
 
+
+
+/* --- Get in Touch card inline override -------------------- */
+div[style*="e8f4f5"] p,
+div[style*="background"] p {
+font-size: 1.15rem !important;
+line-height: 1.8 !important;
+}
+
+/* --- Get in Touch / plain page paragraphs ----------------- */
+.main-container p,
+.main-container li,
+.main-container ul,
+.main-container ol {
+font-size: 1.15rem;
+line-height: 1.85;
+}
+
+/* --- Recent Highlights list ------------------------------- */
+/* Plain ul/li on index page — keep readable but not oversized */
+.main-container ul li,
+.main-container ol li {
+font-size: 1.05rem !important;
+line-height: 1.75 !important;
+}
+
+/* --- Profile info paragraph spacing ----------------------- */
+.profile-info > p:first-of-type {
+margin-top: 0.5rem;
+}
+.profile-info > p + p {
+margin-top: 0.75rem;
+}
+
+/* --- CV stronger overrides (rmarkdown structure) ---------- */
+.cv-section *,
+#main-content .cv-section p,
+#main-content .cv-section li,
+.tab-content .cv-section p,
+.tab-content .cv-section li,
+div[id] .cv-section p,
+div[id] .cv-section li {
+font-size: 1.2rem !important;
+line-height: 1.9 !important;
+}
+
+/* CV section h2 label */
+.cv-section h2 {
+font-size: 1.1rem !important;
+}
+
+/* Preserve skill tag sizing */
+.cv-section .skill-tag,
+.cv-section * .skill-tag {
+font-size: 1.05rem !important;
+line-height: 1.6 !important;
+padding: 0.35rem 0.9rem !important;
+}
+
 /* --- Responsive ------------------------------------------- */
 @media (max-width: 640px) {
 .profile-section {
