@@ -86,12 +86,15 @@ title: "Curriculum Vitae"
 </div>
 <div class="cv-entry-org">Sattva Media &amp; Consulting Pvt. Ltd &middot; New Delhi, India</div>
 <ul class="cv-bullets">
+  <li>Deployed as senior consultant to the Government of Bihar's State Program Management Unit under the Gates Foundation mandate</li>
   <li>Led strategic planning and program management for a state-level health systems strengthening initiative, coordinating across government departments, community stakeholders, and the Gates Foundation to advance equitable maternal and child health outcomes</li>
-  <li>Managed multi-stakeholder engagement processes involving government officials, frontline health workers, NGO partners, and community representatives across Bihar's 38 districts to design and implement policy reforms</li>
   <li>Directed the Bihar State Health Digital Transformation Project, overseeing cross-functional teams and delivering a real-time Power BI command and control center monitoring facility-level data including NICU feeds across 11,725 healthcare facilities, a first-of-its-kind equity-focused infrastructure initiative</li>
+  <li>Managed multi-stakeholder engagement processes involving government officials, frontline health workers, NGO partners, and community representatives across Bihar's 38 districts to design and implement policy reforms</li>
   <li>Monitored state-level immunization initiatives for mothers and newborns across Bihar, tracking coverage trends, identifying equity gaps, and recommending evidence-based improvements to program leadership, directly informing vaccine delivery strategy for a population of 120+ million</li>
+  <li>Spearheaded the development of Mental policy and regulations in the State of Bihar along with the government and oversaw the establishment of Bihar’s first Mental Health Institute</li>
   <li>Led rollout of a statewide telehealth program for mental health services using a hub-and-spoke delivery model, coordinating implementation across primary and referral facilities and evaluating program reach and service utilization metrics</li>
   <li>Developed and executed the Sanitary Napkin Initiative across 143 medical educational institutions and 687 healthcare facilities, advancing reproductive health equity at scale</li>
+  <li>Led infrastructure development workstream for medical college and health facility construction projects, acquiring working knowledge of construction procurement, materials supply chains, and civil engineering processes to deliver on scope</li>
   <li>Spearheaded change management strategy transitioning healthcare infrastructure from paper-based to digital systems, improving service delivery and accountability for low-income communities</li>
   <li>Compiled data from 45+ primary sources (key informant interviews, focus groups) into policy reports; created three digital health knowledge products for government and philanthropic audiences</li>
   <li>Represented the Government of Bihar at the International Maternal and Newborn Healthcare Conference (IMNHC) 2023, Cape Town</li>

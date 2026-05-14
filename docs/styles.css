@@ -287,7 +287,7 @@ margin-bottom: 2rem;
 color: #0f6b72;
 border-bottom: 2px solid #d8eaea;
 padding-bottom: 0.4rem;
-font-size: 1.05rem;
+font-size: 1.25rem;
 text-transform: uppercase;
 letter-spacing: 0.08em;
 font-family: 'Work Sans', sans-serif;
@@ -464,7 +464,7 @@ margin-top: 0.75rem;
 .tab-content .cv-section li,
 div[id] .cv-section p,
 div[id] .cv-section li {
-font-size: 1.2rem !important;
+font-size: 1.3rem !important;
 line-height: 1.9 !important;
 }
 
